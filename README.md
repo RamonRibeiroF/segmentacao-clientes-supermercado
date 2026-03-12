@@ -11,7 +11,7 @@ Um supermercado, através de cartões de fidelidade, possui alguns dados básico
 Projeto de machine learning focado na segmentação de clientes utilizando técnicas de clusterização aplicadas a uma base de dados de clientes de supermercado com Scikit-Learn.
 
 <p align="center"> 
-  <a href="https://www.linkedin.com/in/flsbustamante" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="https://www.linkedin.com/in/ramonrfeliciano" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </p>
 
 ## Objetivos
