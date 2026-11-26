@@ -1,0 +1,11 @@
+# Python 3.12 — versões testadas executando os três notebooks do início ao fim
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+matplotlib==3.9.2
+seaborn==0.13.2
+joblib==1.6.0
+ipympl==0.10.0           # gráfico 3D interativo (%matplotlib widget)
+ydata-profiling==4.18.4  # relatório de EDA em reports/
+setuptools<81            # ydata-profiling ainda usa pkg_resources
+jupyterlab

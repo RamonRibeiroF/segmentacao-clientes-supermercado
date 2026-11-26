@@ -1,5 +1,3 @@
-
-
 # Segmentação de clientes de um supermercado
 
 Um supermercado, através de cartões de fidelidade, possui alguns dados básicos sobre seus clientes, como idade, gênero, renda anual e pontuação de gastos. Tal pontuação é algo que o supermercado atribui ao cliente com base em parâmetros definidos, como comportamento do cliente e dados de compra. O supermercado deseja entender melhor seus clientes, de modo a formular estratégias de negócios, e para isso contratou um cientista de dados para realizar uma segmentação dos clientes.
@@ -85,14 +83,19 @@ Transformando os pontos acima em uma tabela:
 
 ## Como reproduzir o projeto
 
-O projeto foi desenvolvido utilizando o Python 3.11.4. Para reproduzir o projeto, crie um ambiente virtual com o Conda, ou ferramenta similar, com o Python 3.11.4 e instale as bibliotecas abaixo:
+Testado com **Python 3.12**. As versões exatas estão em [`requirements.txt`](requirements.txt).
 
-| Biblioteca   | Versão |
-| ------------ | ------ |
-| Matplotlib   | 3.7.1  |
-| NumPy        | 1.24.3 |
-| Pandas       | 1.5.3  |
-| Scikit-Learn | 1.3.0  |
-| Seaborn      | 0.12.2 |
+```bash
+git clone https://github.com/RamonRibeiroF/segmentacao-clientes-supermercado.git
+cd segmentacao-clientes-supermercado
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+jupyter lab
+```
 
-Essas são as bibliotecas principais utilizadas no projeto. O relatório foi gerado com a biblioteca [ydata-profiling](https://github.com/ydataai/ydata-profiling), instale-a se quiser reproduzir o relatório. Para ter um gráfico em 3 dimensões interativo, instale a biblioteca [ipympl](https://matplotlib.org/ipympl/).
+Execute os notebooks na ordem (`01_eda` → `02_pipeline` → `03_pipeline_pca`). O dataset original já está em `dados/`, então não é preciso baixar nada.
+
+## Licença
+
+MIT. Veja [LICENSE](LICENSE).
